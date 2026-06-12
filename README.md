@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+# EBAC Jobs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido como atividade prática do Módulo 29 – Introdução ao CSS in JS com React.
 
-## Available Scripts
+## Sobre o projeto
 
-In the project directory, you can run:
+O projeto consiste em uma página de divulgação de vagas de emprego na área de tecnologia, permitindo a pesquisa de oportunidades através de um campo de busca.
 
-### `npm start`
+Durante o desenvolvimento foi realizada a conversão da estilização originalmente criada com CSS Modules para Styled Components, aplicando os conceitos de CSS in JS estudados no módulo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Exibição de vagas de emprego
+* Filtro de vagas por termo pesquisado
+* Layout responsivo
+* Componentização utilizando React
+* Estilização com Styled Components
 
-### `npm test`
+## Tecnologias utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
+* TypeScript
+* Styled Components
+* CSS in JS
+* Create React App
 
-### `npm run build`
+## Componentes convertidos para Styled Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Cabeçalho
+* Hero
+* Formulário de Pesquisa
+* Componente Vaga
+* Lista de Vagas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como executar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalar dependências
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Executar em ambiente de desenvolvimento
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A aplicação ficará disponível em:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```txt
+http://localhost:3000
+```
 
-## Learn More
+### Gerar build de produção
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Estrutura do projeto
+
+```txt
+src
+├── components
+│   ├── Cabecalho
+│   ├── FormVagas
+│   ├── Hero
+│   └── Vaga
+├── containers
+│   └── ListaVagas
+├── App.tsx
+└── index.tsx
+```
+
+## Objetivo acadêmico
+
+Este projeto foi desenvolvido para praticar:
+
+* Styled Components
+* CSS in JS
+* Componentização em React
+* Organização de projetos React
+* Reutilização de componentes
+* Estruturação de estilos utilizando Atomic Design
+
+## Autor
+
+Henry Orion Monteiro Machado de Souza
